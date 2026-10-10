@@ -30,3 +30,6 @@ address { font-style: normal; }
 ul { padding-left: 1.2em; }
 li { margin-bottom: 8px; }
 .badge { text-align: center; margin: 32px 0 0; }
+footer { display: flex; gap: 20px; justify-content: center; margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 0.9rem; }
+footer a { color: var(--muted); text-decoration: none; }
+footer a[aria-current="page"] { color: var(--text); text-decoration: underline; }
