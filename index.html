@@ -5,6 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow, noarchive">
   <title>Mjoll</title>
+  <meta name="description" content="Mjoll – haptic meditation for iPhone. Gentle vibration patterns guide your attention. No sound, nothing to watch.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mjoll.app/">
+  <meta property="og:title" content="Mjoll – Haptic Meditation">
+  <meta property="og:description" content="Gentle vibration patterns guide your attention. No sound, nothing to watch.">
+  <meta property="og:image" content="https://mjoll.app/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -59,6 +68,12 @@
   </ul>
   <p>Set the speed of each program to your own pace – Mjoll remembers it.</p>
 
+  <div class="share">
+    <p>Know someone who might like it?</p>
+    <button type="button" id="share">Share Mjoll</button>
+    <p id="share-status" class="muted" aria-live="polite"></p>
+  </div>
+
   <p class="muted">Mjoll is a wellness and relaxation app. It is not a medical device and does not diagnose,
   treat or prevent any condition.</p>
   <footer>
@@ -66,5 +81,22 @@
     <a href="imprint.html">Imprint</a>
   </footer>
 </main>
+<script>
+// Teilen ohne Fremddienste: Systemdialog des Geräts, sonst Link in die Zwischenablage.
+document.getElementById('share').addEventListener('click', async () => {
+  const data = { title: 'Mjoll – Haptic Meditation', text: 'Haptic meditation for iPhone. No sound, nothing to watch.', url: 'https://mjoll.app/' };
+  const status = document.getElementById('share-status');
+  if (navigator.share) {
+    try { await navigator.share(data); } catch (e) { /* abgebrochen */ }
+    return;
+  }
+  try {
+    await navigator.clipboard.writeText(data.url);
+    status.textContent = 'Link copied: mjoll.app';
+  } catch (e) {
+    status.textContent = 'Copy this link: https://mjoll.app/';
+  }
+});
+</script>
 </body>
 </html>
