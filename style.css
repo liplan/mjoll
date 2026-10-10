@@ -42,7 +42,7 @@ footer a[aria-current="page"] { color: var(--text); text-decoration: underline; 
 .icon-breathe img { display: block; }
 /* Lichtschein atmet wie Herzruhe: 5 s einatmen, 6 s ausatmen */
 .icon-breathe::after { content: ""; position: absolute; inset: 0; pointer-events: none;
-  background: radial-gradient(circle at 50% 50%, rgba(255,244,225,0.55) 0%, rgba(255,244,225,0.18) 35%, rgba(255,244,225,0) 62%);
+  background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.18) 35%, rgba(255,255,255,0) 62%);
   mix-blend-mode: screen; opacity: 0.1; transform: scale(0.8);
   animation: breathe 11s ease-in-out infinite; }
 @keyframes breathe {
