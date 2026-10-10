@@ -38,6 +38,18 @@ footer a[aria-current="page"] { color: var(--text); text-decoration: underline; 
 .share button { font: inherit; font-weight: 600; font-size: 1.1rem; color: #000; background: #f2f2f2; border: 0; border-radius: 999px; padding: 14px 36px; cursor: pointer; }
 .share button:focus-visible { outline: 3px solid #f2f2f2; outline-offset: 4px; }
 #share-status { min-height: 1.6em; margin-top: 12px; }
-.breath { margin: 40px auto 8px; max-width: 360px; text-align: center; }
-.breath video { width: 100%; height: auto; border-radius: 50%; display: block; background: #000; }
-.breath figcaption { font-size: 0.95rem; margin-top: 8px; }
+.icon-breathe { position: relative; display: inline-block; width: 96px; height: 96px; border-radius: 22px; overflow: hidden; }
+.icon-breathe img { display: block; }
+/* Lichtschein atmet wie Herzruhe: 5 s einatmen, 6 s ausatmen */
+.icon-breathe::after { content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(circle at 50% 50%, rgba(255,244,225,0.55) 0%, rgba(255,244,225,0.18) 35%, rgba(255,244,225,0) 62%);
+  mix-blend-mode: screen; opacity: 0.1; transform: scale(0.8);
+  animation: breathe 11s ease-in-out infinite; }
+@keyframes breathe {
+  0%   { opacity: 0.1; transform: scale(0.8); }
+  45%  { opacity: 1;   transform: scale(1.12); }
+  100% { opacity: 0.1; transform: scale(0.8); }
+}
+/* Bei "Bewegung reduzieren" nur Helligkeit, kein Wachsen */
+@keyframes breathe-soft { 0% { opacity: 0.1; } 45% { opacity: 1; } 100% { opacity: 0.1; } }
+@media (prefers-reduced-motion: reduce) { .icon-breathe::after { transform: none; animation-name: breathe-soft; } }

@@ -22,7 +22,7 @@
 <body>
 <main>
   <header>
-    <img src="icon.png" alt="Mjoll app icon">
+    <span class="icon-breathe"><img src="icon.png" alt="Mjoll app icon"></span>
     <h1>Mjoll</h1>
     <p class="muted">Haptic meditation for iPhone.<br>Place it. Close your eyes. Feel.</p>
     <nav>
@@ -41,13 +41,6 @@
     </a>
   </p>
   -->
-
-  <figure class="breath">
-    <video src="media/breath.mp4" poster="media/poster.jpg" width="720" height="720"
-           autoplay muted loop playsinline preload="auto"
-           aria-label="A soft circle of light slowly swells and fades, at the pace of a calm breath"></video>
-    <figcaption class="muted">Breathe in as it rises, out as it fades. In the app, you feel it – the light is optional.</figcaption>
-  </figure>
 
   <div class="screens">
     <img src="screens/5-herzruhe-home.jpg" width="506" height="1100" loading="lazy"
@@ -96,10 +89,6 @@
   </footer>
 </main>
 <script>
-// Bei "Bewegung reduzieren" läuft die Schleife nicht von selbst.
-if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  const v = document.querySelector('.breath video'); v.removeAttribute('autoplay'); v.pause(); v.controls = true;
-}
 // Teilen ohne Fremddienste: Systemdialog des Geräts, sonst Link in die Zwischenablage.
 document.getElementById('share').addEventListener('click', async () => {
   const data = { title: 'Mjoll – Haptic Meditation', text: 'Haptic meditation for iPhone. No sound, nothing to watch.', url: 'https://mjoll.app/' };
