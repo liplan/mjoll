@@ -4,8 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow, noarchive">
-  <title>Mjoll</title>
-  <meta name="description" content="Mjoll – haptic meditation for iPhone. Gentle vibration patterns guide your attention. No sound, nothing to watch.">
+  <title>Mjoll – Haptic Meditation for iPhone. No Sound, No Screen</title>
+  <meta name="description" content="Meditate with gentle haptic patterns on your iPhone. No sound, nothing to watch – rest it on your chest, close your eyes and feel. One-time purchase.">
+  <link rel="canonical" href="https://mjoll.app/">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mjoll.app/">
   <meta property="og:title" content="Mjoll – Haptic Meditation">
@@ -21,7 +24,7 @@
   <header>
     <img src="icon.png" alt="Mjoll app icon">
     <h1>Mjoll</h1>
-    <p class="muted">Place it. Close your eyes. Feel.</p>
+    <p class="muted">Haptic meditation for iPhone.<br>Place it. Close your eyes. Feel.</p>
     <nav>
       <a href="./" aria-current="page">Home</a>
       <a href="support.html">Support</a>
@@ -38,6 +41,13 @@
     </a>
   </p>
   -->
+
+  <figure class="breath">
+    <video src="media/breath.mp4" poster="media/poster.jpg" width="720" height="720"
+           autoplay muted loop playsinline preload="auto"
+           aria-label="A soft circle of light slowly swells and fades, at the pace of a calm breath"></video>
+    <figcaption class="muted">Breathe in as it rises, out as it fades. In the app, you feel it – the light is optional.</figcaption>
+  </figure>
 
   <div class="screens">
     <img src="screens/5-herzruhe-home.jpg" width="506" height="1100" loading="lazy"
@@ -68,6 +78,10 @@
   </ul>
   <p>Set the speed of each program to your own pace – Mjoll remembers it.</p>
 
+  <h2>Meditation without sound</h2>
+  <p>Mjoll uses touch only. No headphones, no voice, no music. It works with your eyes closed,
+  in a shared room, on the go – and if you are deaf or hard of hearing.</p>
+
   <div class="share">
     <p>Know someone who might like it?</p>
     <button type="button" id="share">Share Mjoll</button>
@@ -82,6 +96,10 @@
   </footer>
 </main>
 <script>
+// Bei "Bewegung reduzieren" läuft die Schleife nicht von selbst.
+if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const v = document.querySelector('.breath video'); v.removeAttribute('autoplay'); v.pause(); v.controls = true;
+}
 // Teilen ohne Fremddienste: Systemdialog des Geräts, sonst Link in die Zwischenablage.
 document.getElementById('share').addEventListener('click', async () => {
   const data = { title: 'Mjoll – Haptic Meditation', text: 'Haptic meditation for iPhone. No sound, nothing to watch.', url: 'https://mjoll.app/' };
