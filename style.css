@@ -24,3 +24,9 @@ nav a { color: var(--muted); text-decoration: none; }
 nav a[aria-current="page"] { color: var(--text); text-decoration: underline; }
 hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
 address { font-style: normal; }
+.screens { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 40px 0; }
+.screens img { width: 100%; height: auto; border-radius: 18px; border: 1px solid var(--line); }
+@media (max-width: 560px) { .screens { grid-template-columns: repeat(2, 1fr); } }
+ul { padding-left: 1.2em; }
+li { margin-bottom: 8px; }
+.badge { text-align: center; margin: 32px 0 0; }
