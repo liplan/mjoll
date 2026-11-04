@@ -86,24 +86,389 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mjoll.app/"/>
   </url>
   <url>
-    <loc>https://mjoll.app/de/hintergrund/achtsamkeit-ohne-leistungsdruck/</loc>
+    <loc>https://mjoll.app/background/</loc>
     <lastmod>2026-11-04</lastmod>
-  </url>
-  <url>
-    <loc>https://mjoll.app/de/hintergrund/haptische-meditation/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/"/>
   </url>
   <url>
     <loc>https://mjoll.app/de/hintergrund/</loc>
     <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/"/>
   </url>
   <url>
-    <loc>https://mjoll.app/de/hintergrund/meditation-gewohnheit-rituale/</loc>
+    <loc>https://mjoll.app/es/contexto/</loc>
     <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/fr/contexte/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/it/approfondimenti/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/ja/background/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/is/bakgrunnur/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/background/haptic-meditation/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/haptic-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/haptische-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-haptica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-haptique/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-aptica/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/haptic-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/snertihugleidsla/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/de/hintergrund/haptische-meditation/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/haptic-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/haptische-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-haptica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-haptique/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-aptica/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/haptic-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/snertihugleidsla/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/es/contexto/meditacion-haptica/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/haptic-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/haptische-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-haptica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-haptique/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-aptica/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/haptic-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/snertihugleidsla/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/fr/contexte/meditation-haptique/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/haptic-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/haptische-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-haptica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-haptique/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-aptica/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/haptic-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/snertihugleidsla/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/it/approfondimenti/meditazione-aptica/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/haptic-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/haptische-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-haptica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-haptique/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-aptica/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/haptic-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/snertihugleidsla/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/ja/background/haptic-meditation/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/haptic-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/haptische-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-haptica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-haptique/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-aptica/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/haptic-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/snertihugleidsla/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/is/bakgrunnur/snertihugleidsla/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/haptic-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/haptische-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-haptica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-haptique/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-aptica/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/haptic-meditation/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/snertihugleidsla/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/background/meditation-without-music-or-voice/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/meditation-without-music-or-voice/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/meditation-ohne-musik-sprache/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-sin-musica-ni-voz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-sans-musique-ni-voix/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-senza-musica-voce/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/meditation-without-music-or-voice/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/hugleidsla-an-tonlistar-og-tals/"/>
   </url>
   <url>
     <loc>https://mjoll.app/de/hintergrund/meditation-ohne-musik-sprache/</loc>
     <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/meditation-without-music-or-voice/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/meditation-ohne-musik-sprache/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-sin-musica-ni-voz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-sans-musique-ni-voix/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-senza-musica-voce/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/meditation-without-music-or-voice/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/hugleidsla-an-tonlistar-og-tals/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/es/contexto/meditacion-sin-musica-ni-voz/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/meditation-without-music-or-voice/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/meditation-ohne-musik-sprache/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-sin-musica-ni-voz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-sans-musique-ni-voix/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-senza-musica-voce/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/meditation-without-music-or-voice/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/hugleidsla-an-tonlistar-og-tals/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/fr/contexte/meditation-sans-musique-ni-voix/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/meditation-without-music-or-voice/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/meditation-ohne-musik-sprache/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-sin-musica-ni-voz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-sans-musique-ni-voix/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-senza-musica-voce/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/meditation-without-music-or-voice/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/hugleidsla-an-tonlistar-og-tals/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/it/approfondimenti/meditazione-senza-musica-voce/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/meditation-without-music-or-voice/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/meditation-ohne-musik-sprache/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-sin-musica-ni-voz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-sans-musique-ni-voix/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-senza-musica-voce/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/meditation-without-music-or-voice/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/hugleidsla-an-tonlistar-og-tals/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/ja/background/meditation-without-music-or-voice/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/meditation-without-music-or-voice/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/meditation-ohne-musik-sprache/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-sin-musica-ni-voz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-sans-musique-ni-voix/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-senza-musica-voce/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/meditation-without-music-or-voice/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/hugleidsla-an-tonlistar-og-tals/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/is/bakgrunnur/hugleidsla-an-tonlistar-og-tals/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/meditation-without-music-or-voice/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/meditation-ohne-musik-sprache/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-sin-musica-ni-voz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-sans-musique-ni-voix/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-senza-musica-voce/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/meditation-without-music-or-voice/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/hugleidsla-an-tonlistar-og-tals/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/background/meditation-habits-and-rituals/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/meditation-habits-and-rituals/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/meditation-gewohnheit-rituale/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-habito-rituales/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-habitude-rituels/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-abitudine-rituali/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/meditation-habits-rituals/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/hugleidsla-venjur-og-sidir/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/de/hintergrund/meditation-gewohnheit-rituale/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/meditation-habits-and-rituals/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/meditation-gewohnheit-rituale/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-habito-rituales/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-habitude-rituels/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-abitudine-rituali/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/meditation-habits-rituals/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/hugleidsla-venjur-og-sidir/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/es/contexto/meditacion-habito-rituales/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/meditation-habits-and-rituals/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/meditation-gewohnheit-rituale/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-habito-rituales/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-habitude-rituels/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-abitudine-rituali/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/meditation-habits-rituals/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/hugleidsla-venjur-og-sidir/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/fr/contexte/meditation-habitude-rituels/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/meditation-habits-and-rituals/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/meditation-gewohnheit-rituale/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-habito-rituales/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-habitude-rituels/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-abitudine-rituali/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/meditation-habits-rituals/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/hugleidsla-venjur-og-sidir/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/it/approfondimenti/meditazione-abitudine-rituali/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/meditation-habits-and-rituals/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/meditation-gewohnheit-rituale/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-habito-rituales/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-habitude-rituels/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-abitudine-rituali/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/meditation-habits-rituals/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/hugleidsla-venjur-og-sidir/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/ja/background/meditation-habits-rituals/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/meditation-habits-and-rituals/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/meditation-gewohnheit-rituale/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-habito-rituales/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-habitude-rituels/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-abitudine-rituali/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/meditation-habits-rituals/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/hugleidsla-venjur-og-sidir/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/is/bakgrunnur/hugleidsla-venjur-og-sidir/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/meditation-habits-and-rituals/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/meditation-gewohnheit-rituale/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/meditacion-habito-rituales/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/meditation-habitude-rituels/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/meditazione-abitudine-rituali/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/meditation-habits-rituals/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/hugleidsla-venjur-og-sidir/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/background/mindfulness-without-pressure/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/mindfulness-without-pressure/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/achtsamkeit-ohne-leistungsdruck/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/atencion-plena-sin-presion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/pleine-conscience-sans-pression/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/consapevolezza-senza-pressione/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/mindfulness-without-pressure/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/nuvitund-an-arangurskrafna/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/de/hintergrund/achtsamkeit-ohne-leistungsdruck/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/mindfulness-without-pressure/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/achtsamkeit-ohne-leistungsdruck/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/atencion-plena-sin-presion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/pleine-conscience-sans-pression/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/consapevolezza-senza-pressione/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/mindfulness-without-pressure/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/nuvitund-an-arangurskrafna/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/es/contexto/atencion-plena-sin-presion/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/mindfulness-without-pressure/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/achtsamkeit-ohne-leistungsdruck/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/atencion-plena-sin-presion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/pleine-conscience-sans-pression/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/consapevolezza-senza-pressione/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/mindfulness-without-pressure/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/nuvitund-an-arangurskrafna/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/fr/contexte/pleine-conscience-sans-pression/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/mindfulness-without-pressure/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/achtsamkeit-ohne-leistungsdruck/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/atencion-plena-sin-presion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/pleine-conscience-sans-pression/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/consapevolezza-senza-pressione/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/mindfulness-without-pressure/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/nuvitund-an-arangurskrafna/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/it/approfondimenti/consapevolezza-senza-pressione/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/mindfulness-without-pressure/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/achtsamkeit-ohne-leistungsdruck/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/atencion-plena-sin-presion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/pleine-conscience-sans-pression/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/consapevolezza-senza-pressione/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/mindfulness-without-pressure/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/nuvitund-an-arangurskrafna/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/ja/background/mindfulness-without-pressure/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/mindfulness-without-pressure/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/achtsamkeit-ohne-leistungsdruck/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/atencion-plena-sin-presion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/pleine-conscience-sans-pression/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/consapevolezza-senza-pressione/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/mindfulness-without-pressure/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/nuvitund-an-arangurskrafna/"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/is/bakgrunnur/nuvitund-an-arangurskrafna/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/background/mindfulness-without-pressure/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/hintergrund/achtsamkeit-ohne-leistungsdruck/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/contexto/atencion-plena-sin-presion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/contexte/pleine-conscience-sans-pression/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/approfondimenti/consapevolezza-senza-pressione/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/background/mindfulness-without-pressure/"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/bakgrunnur/nuvitund-an-arangurskrafna/"/>
   </url>
   <url>
     <loc>https://mjoll.app/support.html</loc>

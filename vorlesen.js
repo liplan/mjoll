@@ -8,14 +8,20 @@
     var titel = document.querySelector('h1');
     if (!box || !text) return;
     var synth = window.speechSynthesis, teile = [], i = 0, zustand = 'aus', stimme = null;
+    // Ohne passende Stimme auf dem Geraet keinen Knopf zeigen (wird nach dem Laden der Stimmen geprueft)
 
+    var sprache = box.getAttribute('data-sprache') || 'de-DE', kurz = sprache.slice(0, 2).toLowerCase();
+    var L = ['Vorlesen', 'Pause', 'Weiter vorlesen', 'Beenden'];
+    try { L = JSON.parse(box.getAttribute('data-labels')) || L; } catch (e) {}
     function waehleStimme() {
-      var alle = synth.getVoices().filter(function (v) { return /^de(-|_|$)/i.test(v.lang); });
+      var alle = synth.getVoices().filter(function (v) { return v.lang.replace('_', '-').toLowerCase().slice(0, 2) === kurz; });
+      var genau = alle.filter(function (v) { return v.lang.replace('_', '-').toLowerCase() === sprache.toLowerCase(); });
+      if (genau.length) alle = genau;
       // Bessere Stimmen bevorzugen, falls installiert
       alle.sort(function (a, b) { return rang(b) - rang(a); });
       stimme = alle[0] || null;
     }
-    function rang(v) { var n = v.name.toLowerCase(); return (/premium|enhanced|erweitert|natural/.test(n) ? 4 : 0) + (/anna|petra|helena|markus|yannick/.test(n) ? 2 : 0) + (v.localService ? 1 : 0); }
+    function rang(v) { var n = v.name.toLowerCase(); return (/premium|enhanced|erweitert|natural/.test(n) ? 4 : 0) + (/anna|petra|helena|markus|yannick|samantha|ava|zoe|monica|paulina|thomas|amelie|alice|federica|kyoko|otoya|dora/.test(n) ? 2 : 0) + (v.localService ? 1 : 0); }
     waehleStimme();
     if (synth.onvoiceschanged !== undefined) synth.onvoiceschanged = waehleStimme;
 
@@ -34,7 +40,7 @@
     function sprich() {
       if (i >= teile.length) { stopp(); return; }
       var t = teile[i], u = new SpeechSynthesisUtterance(t.text);
-      u.lang = 'de-DE'; if (stimme) u.voice = stimme; u.rate = 0.95;
+      u.lang = sprache; if (stimme) u.voice = stimme; u.rate = 0.95;
       u.onend = function () { if (zustand === 'laeuft') { i++; sprich(); } };
       markiere(t.el);
       if (t.el.getBoundingClientRect().top > window.innerHeight * 0.75 || t.el.getBoundingClientRect().bottom < 0)
@@ -49,11 +55,11 @@
     var haupt = document.createElement('button'), aus = document.createElement('button');
     haupt.type = aus.type = 'button';
     haupt.className = 'vorlesen-knopf'; aus.className = 'vorlesen-knopf nebenknopf';
-    aus.textContent = 'Beenden';
+    aus.textContent = L[3];
     haupt.addEventListener('click', function () { zustand === 'aus' ? start() : zustand === 'laeuft' ? pause() : weiter(); });
     aus.addEventListener('click', stopp);
     function zeige() {
-      haupt.textContent = zustand === 'aus' ? 'Vorlesen' : zustand === 'laeuft' ? 'Pause' : 'Weiter vorlesen';
+      haupt.textContent = zustand === 'aus' ? L[0] : zustand === 'laeuft' ? L[1] : L[2];
       haupt.setAttribute('aria-pressed', zustand === 'laeuft' ? 'true' : 'false');
       aus.hidden = zustand === 'aus';
     }
