@@ -37,20 +37,32 @@
       [].forEach.call(document.querySelectorAll('.liest'), function (e) { e.classList.remove('liest'); });
       if (el) el.classList.add('liest');
     }
-    function sprich() {
-      if (i >= teile.length) { stopp(); return; }
-      var t = teile[i], u = new SpeechSynthesisUtterance(t.text);
-      u.lang = sprache; if (stimme) u.voice = stimme; u.rate = 0.95;
-      u.onend = function () { if (zustand === 'laeuft') { i++; sprich(); } };
-      markiere(t.el);
-      if (t.el.getBoundingClientRect().top > window.innerHeight * 0.75 || t.el.getBoundingClientRect().bottom < 0)
-        t.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      synth.speak(u);
+    // Alle Absaetze werden auf einmal in die Warteschlange gelegt, direkt beim Tippen.
+    // Safari vergisst sonst die gewaehlte Stimme, wenn jeder Absatz erst nach dem vorigen startet.
+    var lauf = 0;
+    function starteAb(n) {
+      synth.cancel();
+      waehleStimme();
+      var meinLauf = ++lauf;
+      i = n;
+      if (n >= teile.length) { stopp(); return; }
+      teile.slice(n).forEach(function (t, k) {
+        var u = new SpeechSynthesisUtterance(t.text);
+        u.lang = sprache; if (stimme) u.voice = stimme; u.rate = 0.95;
+        u.onstart = function () {
+          if (meinLauf !== lauf) return;
+          i = n + k; markiere(t.el);
+          var r = t.el.getBoundingClientRect();
+          if (r.top > window.innerHeight * 0.75 || r.bottom < 0) t.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        };
+        u.onend = function () { if (meinLauf === lauf && zustand === 'laeuft' && n + k === teile.length - 1) stopp(); };
+        synth.speak(u);
+      });
     }
-    function start() { synth.cancel(); teile = sammle(); i = 0; zustand = 'laeuft'; sprich(); zeige(); }
-    function pause() { zustand = 'pause'; synth.cancel(); zeige(); }          // cancel statt pause: zuverlaessiger auf allen Geraeten
-    function weiter() { zustand = 'laeuft'; sprich(); zeige(); }
-    function stopp() { zustand = 'aus'; synth.cancel(); markiere(null); zeige(); }
+    function start() { teile = sammle(); zustand = 'laeuft'; zeige(); starteAb(0); }
+    function pause() { zustand = 'pause'; lauf++; synth.cancel(); zeige(); }        // cancel statt pause: zuverlaessiger auf allen Geraeten
+    function weiter() { zustand = 'laeuft'; zeige(); starteAb(i); }
+    function stopp() { zustand = 'aus'; lauf++; synth.cancel(); markiere(null); zeige(); }
 
     var haupt = document.createElement('button'), aus = document.createElement('button');
     haupt.type = aus.type = 'button';
