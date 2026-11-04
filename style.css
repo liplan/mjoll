@@ -106,10 +106,10 @@ h2[id] { scroll-margin-top: 16px; }
 /* Heller Modus: Im Dunkeln verschwinden die Ecken des schwarzen Icons im Hintergrund, sichtbar bleibt
    der Lichtkreis. Auf hellem Grund wuerde daraus ein schwarzes Quadrat. Deshalb weich rund ausblenden. */
 :root[data-theme="light"] .icon-breathe { border-radius: 50%;
-  -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 52%, transparent 71%);
-          mask-image: radial-gradient(circle at 50% 50%, #000 52%, transparent 71%); }
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 71%);
+          mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 71%); }
 @media (prefers-color-scheme: light) {
   :root:not([data-theme="dark"]) .icon-breathe { border-radius: 50%;
-    -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 52%, transparent 71%);
-            mask-image: radial-gradient(circle at 50% 50%, #000 52%, transparent 71%); }
+    -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 71%);
+            mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 71%); }
 }
