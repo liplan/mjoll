@@ -113,3 +113,26 @@ h2[id] { scroll-margin-top: 16px; }
     -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 71%);
             mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 71%); }
 }
+/* Illustrationen (wissen/bilder, inline eingebunden). Linienfarben folgen dem Umschalter. */
+main .illu svg { --ink: var(--text); --soft: var(--muted); display: block; width: 100%; height: auto; }
+.illu-titel { margin: 8px 0 32px; }
+.illu-erkl { margin: 36px 0; }
+.illu-mobil { display: none; }
+.illu-labels { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 8px; text-align: center; font-size: 0.9rem; color: var(--muted); }
+.illu-labels.n2 { grid-template-columns: repeat(2, 1fr); }
+.illu-labels.n3 { grid-template-columns: repeat(3, 1fr); }
+.illu-labels li { margin: 0; }
+.illu-erkl figcaption { margin-top: 12px; font-size: 0.85rem; color: var(--muted); text-align: left; }
+@media (max-width: 560px) {
+  /* Die gestapelte Mobilfassung waere sehr lang und trennt Bild und Beschriftung; die breite Fassung bleibt lesbar. */
+  .illu-labels { font-size: 0.78rem; gap: 6px; }
+}
+.cards { list-style: none; padding: 0; margin: 12px 0 8px; display: grid; gap: 16px; grid-template-columns: 1fr; }
+@media (min-width: 600px) { .cards { grid-template-columns: 1fr 1fr; } }
+.cards li { margin: 0; }
+.card { display: flex; flex-direction: column; height: 100%; padding: 16px; border: 1px solid var(--line); border-radius: 16px; text-decoration: none; color: var(--text); }
+.card:hover, .card:focus-visible { border-color: var(--muted); }
+.card .illu-titel { margin: 0 0 12px; }
+.card-titel { font-weight: 600; line-height: 1.35; margin-bottom: 6px; }
+.card-text { font-size: 0.92rem; color: var(--muted); line-height: 1.5; flex: 1; }
+.card-meta { font-size: 0.85rem; color: var(--muted); margin-top: 10px; }
