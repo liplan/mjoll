@@ -136,3 +136,9 @@ main .illu svg { --ink: var(--text); --soft: var(--muted); display: block; width
 .card-titel { font-weight: 600; line-height: 1.35; margin-bottom: 6px; }
 .card-text { font-size: 0.92rem; color: var(--muted); line-height: 1.5; flex: 1; }
 .card-meta { font-size: 0.85rem; color: var(--muted); margin-top: 10px; }
+/* Kopf im Bereich Hintergrund: kleines Icon mit Lichtkreis ueber dem Schriftzug */
+header.small .brand-link { display: inline-flex; flex-direction: column; align-items: center; gap: 8px; text-decoration: none; color: var(--text); }
+header.small .icon-breathe { width: 64px; height: 64px; border-radius: 15px; }
+header.small .icon-breathe img { width: 64px; height: 64px; border-radius: 15px; }
+/* Titelbild im Artikel nicht hoeher als etwa ein Drittel des Bildschirms (in den Cards unveraendert) */
+main > .illu-titel svg { max-height: 300px; }
