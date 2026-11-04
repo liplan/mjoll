@@ -107,8 +107,156 @@
   </url>
   <url>
     <loc>https://mjoll.app/support.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/support.html"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/de/support.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/support.html"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/es/support.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/support.html"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/fr/support.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/support.html"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/it/support.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/support.html"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/ja/support.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/support.html"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/is/support.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/support.html"/>
   </url>
   <url>
     <loc>https://mjoll.app/privacy.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/de/privacy.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/es/privacy.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/fr/privacy.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/it/privacy.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/ja/privacy.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://mjoll.app/is/privacy.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mjoll.app/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mjoll.app/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mjoll.app/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mjoll.app/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mjoll.app/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mjoll.app/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="is" href="https://mjoll.app/is/privacy.html"/>
   </url>
 </urlset>
