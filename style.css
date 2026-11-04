@@ -55,3 +55,14 @@ footer a[aria-current="page"] { color: var(--text); text-decoration: underline; 
 /* Bei "Bewegung reduzieren" nur Helligkeit, kein Wachsen */
 @keyframes breathe-soft { 0% { opacity: 0.1; } 45% { opacity: 1; } 100% { opacity: 0.1; } }
 @media (prefers-reduced-motion: reduce) { .icon-breathe::after { transform: none; animation-name: breathe-soft; } }
+/* Mjoll Wissen */
+header.small { margin-bottom: 32px; }
+header.small .brand { font: 300 1.6rem/1.2 ui-serif, "New York", Georgia, serif; color: var(--text); text-decoration: none; }
+h1.artikel { font: 300 1.9rem/1.25 ui-serif, "New York", Georgia, serif; margin: 8px 0 20px; text-align: left; }
+p.lead { font-size: 1.1rem; }
+sup a.ref { color: var(--muted); text-decoration: none; font-size: 0.75rem; padding-left: 1px; }
+.quellen { margin-top: 48px; padding-top: 8px; border-top: 1px solid var(--line); font-size: 0.85rem; }
+.quellen li { color: var(--muted); word-break: break-word; }
+.quellen a { color: var(--muted); }
+.artikelliste { list-style: none; padding-left: 0; }
+.artikelliste li { margin-bottom: 18px; }
