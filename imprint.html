@@ -9,18 +9,25 @@
   <link rel="canonical" href="https://mjoll.app/imprint.html">
   <link rel="icon" href="/favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/style.css?v=23273861">
+  <link rel="stylesheet" href="/style.css?v=06eb15f3">
   <script src="/theme.js?v=a99bdec3"></script>
 </head>
 <body>
-<main>
-  <header>
-    <a href="/de/" class="brand-link"><span class="icon-breathe"><img src="/icon.png" alt="Mjoll App-Icon"></span></a>
-    <h1>Impressum</h1>
-    <nav>
-      <a href="/de/">Start</a>
+<!-- Leiste wie in scripts/sprachseiten.py, leiste() -->
+<header class="leiste">
+  <div class="leiste-innen">
+    <a class="leiste-marke" href="/de/"><img src="/icon.png" alt="" width="32" height="32"><span>Mjoll</span><span class="sr">, Start</span></a>
+    <nav class="leiste-nav" aria-label="Hauptmenü">
       <a href="/de/support.html">Support</a>
+      <a href="/de/hintergrund/">Hintergrund</a>
+      <span class="sprachplatz"></span>
+      <a class="leiste-laden" href="https://apps.apple.com/app/id6820945861">App laden</a>
     </nav>
+  </div>
+</header>
+<main>
+  <header class="unterseite">
+    <h1>Impressum</h1>
   </header>
 
   <h2>Angaben gemäß § 5 DDG</h2>

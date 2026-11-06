@@ -168,3 +168,43 @@ aside.randnotiz a { color: var(--text); }
 .sprachwahl select:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
 /* Verweis vom Artikel auf die App */
 .zur-app { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--line); }
+
+/* Obere Leiste (seit 2026-11-06): bleibt beim Scrollen stehen, auf allen Seiten gleich */
+.leiste { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 88%, transparent);
+  -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
+.leiste-innen { max-width: 680px; margin: 0 auto; padding: 10px 16px; display: flex; align-items: center; gap: 12px; }
+.leiste-marke { display: flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none;
+  font: 400 1.3rem/1 ui-serif, "New York", Georgia, serif; margin-right: auto; padding: 4px 0; }
+.leiste-marke img { width: 32px; height: 32px; border-radius: 8px; }
+.leiste-nav { display: flex; align-items: center; gap: 4px; margin: 0; flex-wrap: nowrap; }
+.leiste-nav a { color: var(--text); text-decoration: none; font-size: 17px; padding: 10px 10px; border-radius: 10px; white-space: nowrap; }
+.leiste-nav a:hover { background: color-mix(in srgb, var(--text) 8%, transparent); }
+.leiste-nav a[aria-current="page"] { font-weight: 600; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
+.leiste a:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
+.leiste .sprachwahl { position: relative; display: flex; align-items: center; gap: 6px; color: var(--text);
+  font-size: 17px; padding: 10px 10px; border-radius: 10px; }
+.leiste .sprachwahl:hover { background: color-mix(in srgb, var(--text) 8%, transparent); }
+.leiste .sprachwahl select { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer;
+  font-size: 16px; padding: 0; border: 0; background: none; }
+.leiste .sprachwahl:focus-within { outline: 2px solid var(--text); outline-offset: 2px; }
+.leiste-laden { display: none; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 599px) {
+  .leiste .sprachname { display: none; }
+}
+@media (min-width: 700px) {
+  .leiste-innen { max-width: 920px; }
+  .leiste-nav a.leiste-laden { display: inline-block; margin-left: 8px; font-weight: 600; color: var(--bg); background: var(--text);
+    border-radius: 999px; padding: 9px 18px; }
+  .leiste-nav a.leiste-laden:hover { background: var(--text); opacity: 0.85; }
+}
+header.unterseite { margin-bottom: 24px; }
+.leiste .sprachplatz { display: flex; align-items: center; }
+.leiste .sprachwahl svg { display: block; }
+@media (max-width: 479px) {
+  .leiste-innen { gap: 4px; padding: 8px 10px; }
+  .leiste-marke > span:not(.sr) { display: none; }
+  .leiste-nav a, .leiste .sprachwahl { padding: 10px 8px; }
+}
+.leiste .sprachwahl { top: auto; right: auto; }
+.leiste-marke img { box-shadow: 0 0 0 1px var(--line); }

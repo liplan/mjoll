@@ -33,7 +33,13 @@
     });
     var codes = Object.keys(NAMEN).filter(function (l) { return f[l]; });
     if (codes.length < 2) return;
-    var wrap = document.createElement('div'); wrap.className = 'sprachwahl';
+    var platz = document.querySelector('.leiste .sprachplatz');
+    var wrap = document.createElement(platz ? 'span' : 'div'); wrap.className = 'sprachwahl';
+    // In der Leiste: Globus und Name sichtbar, darueber unsichtbar das echte Auswahlfeld (natives Menue des Geraets).
+    if (platz) {
+      wrap.innerHTML = '<svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9s1.3-6.3 3.8-9z"/></svg>'
+        + '<span class="sprachname">' + (NAMEN[hier] || '') + '</span>';
+    }
     var sel = document.createElement('select');
     sel.setAttribute('aria-label', WORT[hier] || WORT.en);
     codes.forEach(function (l) {
@@ -42,6 +48,7 @@
     });
     sel.addEventListener('change', function () { merke(sel.value); location.href = f[sel.value] + location.hash; });
     wrap.appendChild(sel);
-    document.body.insertBefore(wrap, document.body.firstChild);
+    if (platz) platz.appendChild(wrap);
+    else document.body.insertBefore(wrap, document.body.firstChild);
   });
 })();
