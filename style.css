@@ -208,3 +208,19 @@ header.unterseite { margin-bottom: 24px; }
 }
 .leiste .sprachwahl { top: auto; right: auto; }
 .leiste-marke img { box-shadow: 0 0 0 1px var(--line); }
+
+/* Startseite in der Leiste: Wort ab 600 px, darunter nur das Haus */
+.leiste-nav a.leiste-home { display: flex; align-items: center; }
+.leiste-home svg { display: none; }
+@media (max-width: 599px) {
+  .leiste-home svg { display: block; }
+  .leiste-home-wort { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+@media (max-width: 399px) {
+  .leiste-innen { gap: 0; padding: 8px 6px; }
+  .leiste-nav a, .leiste .sprachwahl { padding: 10px 6px; }
+}
+@media (max-width: 599px) {
+  .leiste-nav a.leiste-home[aria-current="page"] { background: color-mix(in srgb, var(--text) 14%, transparent); }
+  .leiste-home[aria-current="page"] svg { stroke-width: 2.2; }
+}
