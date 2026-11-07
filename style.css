@@ -168,6 +168,8 @@ aside.randnotiz a { color: var(--text); }
 .sprachwahl select:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
 /* Verweis vom Artikel auf die App */
 .zur-app { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--line); }
+.badge-artikel { margin: 12px 0 32px; }
+.badge-artikel img { display: block; }
 
 /* Obere Leiste (seit 2026-11-06): bleibt beim Scrollen stehen, auf allen Seiten gleich */
 .leiste { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 88%, transparent);
