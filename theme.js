@@ -14,6 +14,7 @@
   function current() {
     var t = root.getAttribute('data-theme');
     if (t) return t;
+    if ('') return '';   // Standardansicht der App aus app.toml (ansicht), leer = Geraet
     return window.matchMedia && matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
   }
   document.addEventListener('DOMContentLoaded', function () {

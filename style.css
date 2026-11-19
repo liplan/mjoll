@@ -65,21 +65,6 @@ footer a[aria-current="page"] { color: var(--text); text-decoration: underline; 
 .share button { font: inherit; font-weight: 600; font-size: 1.1rem; color: var(--bg); background: var(--text); border: 0; border-radius: 999px; padding: 14px 36px; cursor: pointer; }
 .share button:focus-visible { outline: 3px solid var(--text); outline-offset: 4px; }
 #share-status { min-height: 1.6em; margin-top: 12px; }
-.icon-breathe { position: relative; display: inline-block; width: 96px; height: 96px; border-radius: 22px; overflow: hidden; }
-.icon-breathe img { display: block; }
-/* Lichtschein atmet wie Herzruhe: 5 s einatmen, 6 s ausatmen */
-.icon-breathe::after { content: ""; position: absolute; inset: 0; pointer-events: none;
-  background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.18) 35%, rgba(255,255,255,0) 62%);
-  mix-blend-mode: screen; opacity: 0.1; transform: scale(0.8);
-  animation: breathe 11s ease-in-out infinite; }
-@keyframes breathe {
-  0%   { opacity: 0.1; transform: scale(0.8); }
-  45%  { opacity: 1;   transform: scale(1.12); }
-  100% { opacity: 0.1; transform: scale(0.8); }
-}
-/* Bei "Bewegung reduzieren" nur Helligkeit, kein Wachsen */
-@keyframes breathe-soft { 0% { opacity: 0.1; } 45% { opacity: 1; } 100% { opacity: 0.1; } }
-@media (prefers-reduced-motion: reduce) { .icon-breathe::after { transform: none; animation-name: breathe-soft; } }
 /* Bereich Hintergrund (scripts/wissen.py) */
 header.small { margin-bottom: 32px; }
 header.small .brand { font: 300 1.6rem/1.2 ui-serif, "New York", Georgia, serif; color: var(--text); text-decoration: none; }
@@ -107,16 +92,6 @@ sup a.ref { color: var(--muted); text-decoration: none; font-size: 0.75rem; padd
 .toc a { text-decoration: none; }
 .toc a:hover { text-decoration: underline; }
 h2[id] { scroll-margin-top: 16px; }
-/* Heller Modus: Im Dunkeln verschwinden die Ecken des schwarzen Icons im Hintergrund, sichtbar bleibt
-   der Lichtkreis. Auf hellem Grund wuerde daraus ein schwarzes Quadrat. Deshalb weich rund ausblenden. */
-:root[data-theme="light"] .icon-breathe { border-radius: 50%;
-  -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 71%);
-          mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 71%); }
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) .icon-breathe { border-radius: 50%;
-    -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 71%);
-            mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 71%); }
-}
 /* Illustrationen (wissen/bilder, inline eingebunden). Linienfarben folgen dem Umschalter. */
 main .illu svg { --ink: var(--text); --soft: var(--muted); display: block; width: 100%; height: auto; }
 .illu-titel { margin: 8px 0 32px; }
@@ -142,8 +117,6 @@ main .illu svg { --ink: var(--text); --soft: var(--muted); display: block; width
 .card-meta { font-size: 0.85rem; color: var(--muted); margin-top: 10px; }
 /* Kopf im Bereich Hintergrund: kleines Icon mit Lichtkreis ueber dem Schriftzug */
 header.small .brand-link { display: inline-flex; flex-direction: column; align-items: center; gap: 8px; text-decoration: none; color: var(--text); }
-header.small .icon-breathe { width: 64px; height: 64px; border-radius: 15px; }
-header.small .icon-breathe img { width: 64px; height: 64px; border-radius: 15px; }
 /* Titelbild im Artikel nicht hoeher als etwa ein Drittel des Bildschirms (in den Cards unveraendert) */
 main > .illu-titel svg { max-height: 300px; }
 /* Randnotiz am Artikelende, z. B. Datenschutz: abgesetzt und kleiner */
@@ -226,3 +199,31 @@ header.unterseite { margin-bottom: 24px; }
   .leiste-nav a.leiste-home[aria-current="page"] { background: color-mix(in srgb, var(--text) 14%, transparent); }
   .leiste-home[aria-current="page"] svg { stroke-width: 2.2; }
 }
+/* App-eigene Ergaenzung aus website-inhalt/zusatz.css (Mjoll) */
+.icon-breathe { position: relative; display: inline-block; width: 96px; height: 96px; border-radius: 22px; overflow: hidden; }
+.icon-breathe img { display: block; }
+/* Lichtschein atmet wie Herzruhe: 5 s einatmen, 6 s ausatmen */
+.icon-breathe::after { content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.18) 35%, rgba(255,255,255,0) 62%);
+  mix-blend-mode: screen; opacity: 0.1; transform: scale(0.8);
+  animation: breathe 11s ease-in-out infinite; }
+@keyframes breathe {
+  0%   { opacity: 0.1; transform: scale(0.8); }
+  45%  { opacity: 1;   transform: scale(1.12); }
+  100% { opacity: 0.1; transform: scale(0.8); }
+}
+/* Bei "Bewegung reduzieren" nur Helligkeit, kein Wachsen */
+@keyframes breathe-soft { 0% { opacity: 0.1; } 45% { opacity: 1; } 100% { opacity: 0.1; } }
+@media (prefers-reduced-motion: reduce) { .icon-breathe::after { transform: none; animation-name: breathe-soft; } }
+/* Heller Modus: Im Dunkeln verschwinden die Ecken des schwarzen Icons im Hintergrund, sichtbar bleibt
+   der Lichtkreis. Auf hellem Grund wuerde daraus ein schwarzes Quadrat. Deshalb weich rund ausblenden. */
+:root[data-theme="light"] .icon-breathe { border-radius: 50%;
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 71%);
+          mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 71%); }
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) .icon-breathe { border-radius: 50%;
+    -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 71%);
+            mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 71%); }
+}
+header.small .icon-breathe { width: 64px; height: 64px; border-radius: 15px; }
+header.small .icon-breathe img { width: 64px; height: 64px; border-radius: 15px; }
